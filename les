@@ -1,0 +1,8 @@
+#!/bin/sh
+#if [ -H $1]
+#then ls -l $LS_OPTIONS $1; ls -H $LS_OPTIONS $1
+#else
+if [ -d $1 ]
+then ls $LS_OPTIONS $1
+else less $1
+fi
