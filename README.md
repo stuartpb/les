@@ -1,6 +1,6 @@
 # les
 
-Les is a shell script. Github can't understand this, and sends it out with a very wrong Content-Type.
+Les is a shell script that switches between `ls` and `less` depending on whether its contents are a file or a directory (or a symlink).
 
 ## Alternatives
 
